@@ -1,0 +1,146 @@
+.layout > * {
+  border: 1px solid blue;
+}
+
+html {
+  font-size: large;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-image: url('https://i.postimg.cc/g2zqvdLT/background-all.png');
+  background-size: 100% auto;
+
+}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+nav {
+  font-weight: 700;
+  font-size: small;
+}
+
+.top {
+  /* background: linear-gradient(180deg, rgba(125,21,231,1) 12%, #8d69fc); */
+  background-image: url('https://i.postimg.cc/Nf7k9LFX/backgroud-top.png');
+  background-size: auto 100%;
+  height: 80vh;
+  width: 100vw;
+  position: relative;
+  z-index: 999;
+}
+
+.top .col-md-6 {
+  color: white
+}
+.top h2 {
+  font-family: 'Limelight', cursive;
+}
+.top .col-md-6 h2 {
+  font-size: xx-large;
+  margin-bottom: 2rem;
+}
+.top .col-md-6 p {
+  margin-bottom: 0;
+}
+
+.top img {
+  border-radius: 1.5rem;
+}
+
+.top:after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  content: "";
+  height: 0;
+  width: 0;
+  border-right: 100vw solid #8d69fc;
+  border-bottom: 10vw solid transparent;
+  border-top: 0px solid transparent;
+  overflow: hidden;
+}
+
+.btn-sexy {
+  color: black;
+  background-color: #03fcbe;
+  border-color: #03fcbe;
+  border-radius: 1rem;
+  padding: 1rem;
+  font-size: small;
+  font-weight: 600;
+}
+
+.btn-long {
+  margin-top: 2rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 50vw;
+}
+
+footer {
+  padding: 4rem 2rem 1rem 2rem;
+}
+
+footer .col-md-4 {
+  font-size: larger;
+}
+
+footer li {
+  padding: .5rem;
+  font-size: small;
+}
+
+.font-secondary {
+  font-family: 'Limelight', cursive;
+}
+
+#how {
+  margin-top: 10rem;
+  margin-bottom: 4rem;
+}
+
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 0 50px rgba(3, 252, 190, 0.25);
+  border: 0
+}
+
+#support {
+  margin-top: 10rem;
+  margin-bottom: 4rem;
+}
+
+#support .card h5 {
+  font-weight: 600;
+}
